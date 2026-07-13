@@ -49,11 +49,39 @@ nav{position:fixed;top:0;left:0;right:0;z-index:500;height:56px;padding:0 40px;d
 .nhm span{width:18px;height:1.5px;background:var(--g);display:block}
 
 /* ── MOBILE NAV ── */
-.mn{display:none;position:fixed;inset:0;background:rgba(9,11,16,.97);z-index:600;flex-direction:column;align-items:center;justify-content:center;gap:26px}
+.mn{
+    display:none;
+    position:fixed;
+    inset:0;
+    background:rgba(255,255,255,.97);
+    z-index:600;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:26px
+}
 .mn.op{display:flex}
-.mn a{font-family:var(--mo);font-size:18px;color:var(--t);text-decoration:none;text-transform:uppercase;letter-spacing:.12em;transition:color .2s}
+.mn a{
+    font-family:var(--mo);
+    font-size:18px;
+    color:#111;
+    text-decoration:none;
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    transition:color .2s
+}
 .mn a:hover{color:var(--g)}
-.mnc{position:absolute;top:18px;right:24px;background:none;border:none;color:var(--t2);font-size:20px;cursor:pointer;font-family:var(--mo)}
+.mnc{
+    position:absolute;
+    top:18px;
+    right:24px;
+    background:none;
+    border:none;
+    color:#555;
+    font-size:20px;
+    cursor:pointer;
+    font-family:var(--mo)
+}
 
 /* ── SHARED ── */
 section{position:relative;z-index:1}
